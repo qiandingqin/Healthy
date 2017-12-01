@@ -1,0 +1,115 @@
+/*重置浏览器默认属性*/
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,dl,li,dd,dt,form,input,button,select,option,textarea{
+    margin:0;padding:0;
+}
+
+
+i{font-style: normal}
+a{text-decoration: none;color:#000;}
+li{list-style: none}
+
+/*清除浮动*/
+.clearfix{zoom:1;}
+.clearfix::after{content: '';display: block;clear: both}
+
+/*设置根元素字体用于rem自适应屏幕 1rem = 100px 设计分辨率 640*x*/
+html{width:100%;font-size:calc(100 / 750 * 100vw);}
+
+/*变量*/
+$defaultFontSize:0.16rem;
+$color:#33C49D;
+$borderColor:#DADBDC;
+$grayColor:gray;
+
+html body{
+    height:100vh;
+    font-size: $defaultFontSize;
+}
+
+/*文本超出显示省略号 元素必须是块级元素 并且有宽度才会有效果*/
+.ellipsis{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+
+.red{color:red;}
+.gray{color:gray}
+.green{color:$color;}
+#app .borderActive{
+    border-top-color:$color;
+    border-top-width:2px;
+
+    border-bottom-color:$color;
+    border-bottom-width:2px;
+}
+
+/*列表展示*/
+.w-list{
+    li{
+        height:calc(0.7rem - 1px);
+        padding:0.3rem 0.3rem 0;
+        border-bottom: 1px solid $borderColor;
+        overflow:hidden;
+
+        p{
+            width:40%;
+            float:left;
+
+            img{
+                width:0.32rem;
+                height:0.32rem;
+                position: relative;
+                top:0.04rem;
+                margin-right:0.26rem;
+            }
+
+            span{
+                font-size:rem(0.16);
+            }
+        }
+
+        p:nth-child(2){
+            text-align: right;
+
+            span{
+                font-size:rem(0.14);
+            }
+        }
+
+        a{
+            float:right;
+            width:20%;
+            text-align: right;
+
+            img{
+                width:0.32rem;
+                height:0.32rem;
+                margin-right:0.4rem;
+            }
+        }
+
+        .w-list-content{
+            font-size: rem(0.14);
+            padding-left:0.6rem;
+            margin:0.22rem 0 0.2rem;
+        }
+
+    }
+}
+
+.releaseBtn{
+    width:6.2rem;
+    height:0.92rem;
+    display: block;
+    margin:0 auto;
+    outline: none;
+    border:none;
+    background: $color;
+    text-align: center;
+    border-radius: 8px;
+    color:#FFF;
+    font-size:0.32rem;
+}
+
+/*屏幕像素转为物理像素*/
+@function rem($rem){
+    @return $rem * 2rem;
+};
+
