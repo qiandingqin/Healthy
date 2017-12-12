@@ -3,28 +3,28 @@
         <ul class="w-list">
             <li>
                 <p>
-                    <img src="/src/assets/images/x.png" />
+                    <img src="../../assets/images/x.png" />
                     <span>姓名</span>
                 </p>
                 <p><span>张晓丽</span></p>
             </li>
             <li>
                 <p>
-                    <img src="/src/assets/images/p.png" />
+                    <img src="../../assets/images/p.png" />
                     <span>联系方式</span>
                 </p>
                 <p><span>18984316433</span></p>
             </li>
             <li>
                 <p>
-                    <img src="/src/assets/images/j.png" />
+                    <img src="../../assets/images/j.png" />
                     <span>申请减重</span>
                 </p>
                 <p><span>15KG</span></p>
             </li>
             <li>
                 <p>
-                    <img src="/src/assets/images/time.png" />
+                    <img src="../../assets/images/time.png" />
                     <span>预计时间</span>
                 </p>
                 <p><span>一个月</span></p>
@@ -34,33 +34,34 @@
         <ul class="w-list">
             <li>
                 <p>
-                    <img src="/src/assets/images/nl.png" />
+                    <img src="../../assets/images/nl.png" />
                     <span>年龄</span>
                 </p>
                 <p><span>36周岁</span></p>
             </li>
             <li>
                 <p>
-                    <img src="/src/assets/images/sg.png" />
+                    <img src="../../assets/images/sg.png" />
                     <span>163cm</span>
                 </p>
                 <p><span>18984316433</span></p>
             </li>
             <li>
                 <p>
-                    <img src="/src/assets/images/t.png" />
+                    <img src="../../assets/images/t.png" />
                     <span>体重</span>
                 </p>
                 <p><span>70KG</span></p>
             </li>
             <li>
                 <p>
-                    <img src="/src/assets/images/s.png" />
+                    <img src="../../assets/images/s.png" />
                     <span>运动</span>
                 </p>
                 <p><span>轻微</span></p>
             </li>
         </ul>
+        <button class="releaseBtn">接受申请</button>
   </div>
 </template>
 

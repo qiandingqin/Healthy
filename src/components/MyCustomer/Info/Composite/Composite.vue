@@ -10,19 +10,19 @@
     <ul class="w-list">
       <li>
           <p>
-              <img src="/src/assets/images/c.png" />
+              <img src="../../../../assets/images/c.png" />
               <span>今天</span>
           </p>
           <p>
               <span class="red">未报<i class="red"></i></span>
           </p>
           <router-link to="/MyCustomer/Composite/detail" v-if="false">
-              <img src="/src/assets/images/other/right.png" />
+              <img src="../../../../assets/images/other/right.png" />
           </router-link>
       </li>
       <li>
           <p>
-              <img src="/src/assets/images/c.png" />
+              <img src="../../../../assets/images/c.png" />
               <span>昨天</span>
           </p>
           <p>
@@ -30,13 +30,13 @@
               <i class="green">-0.8KG</i>
           </p>
           <router-link to="/MyCustomer/Composite/detail" v-if="true">
-              <img src="/src/assets/images/other/right.png" />
+              <img src="../../../../assets/images/other/right.png" />
           </router-link>
       </li>
 
       <li>
           <p>
-              <img src="/src/assets/images/c.png" />
+              <img src="../../../../assets/images/c.png" />
               <span>2017年11月10日</span>
           </p>
           <p>
@@ -44,7 +44,7 @@
               <i class="red">+10.08KG</i>
           </p>
           <router-link to="/MyCustomer/Composite/detail" v-if="true">
-              <img src="/src/assets/images/other/right.png" />
+              <img src="../../../../assets/images/other/right.png" />
           </router-link>
       </li>
     </ul>

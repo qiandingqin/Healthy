@@ -14,7 +14,7 @@
         </li>
     </ul>
       
-    <img class="dataImg" src="/src/assets/images/other/b.jpg" />
+    <img class="dataImg" src="../../../../assets/images/other/b.jpg" />
 
   </div>
 </template>

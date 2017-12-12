@@ -3,12 +3,12 @@
       <ul class="w-list">
         <li v-for="(i,index) in 20">
             <p>
-                <img src="/src/assets/images/f.png" />
+                <img src="../../../../assets/images/f.png" />
                 <span>今天 {{index}}</span>
             </p>
             <router-link to="" >
-              <img src="/src/assets/images/other/up.png" @click="showPanel(index)" v-if="showIndex == index"/>
-              <img src="/src/assets/images/other/down.png" @click="showPanel(index)" v-else />
+              <img src="../../../../assets/images/other/up.png" @click="showPanel(index)" v-if="showIndex == index"/>
+              <img src="../../../../assets/images/other/down.png" @click="showPanel(index)" v-else />
             </router-link>
             <div class="clearfix"></div>
             <div class="w-list-content">

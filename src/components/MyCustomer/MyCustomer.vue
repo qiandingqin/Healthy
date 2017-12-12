@@ -10,7 +10,7 @@
                 <span class="red">未配餐 <i class="red">未报</i></span>
             </p>
             <router-link to="/MyCustomer">
-                <img src="/src/assets/images/other/right.png" />
+                <img src="../../assets/images/other/right.png" />
             </router-link>
         </li>
         <li>
@@ -21,7 +21,7 @@
                 <span class="gray">未配餐 <i class="red">未报</i></span>
             </p>
              <router-link to="">
-                <img src="/src/assets/images/other/right.png" />
+                <img src="../../assets/images/other/right.png" />
             </router-link>
         </li>
         <li>
@@ -32,7 +32,7 @@
                 <span class="gray">已配餐 <i class="gray">已报</i></span>
             </p>
              <router-link to="">
-                <img src="/src/assets/images/other/right.png" />
+                <img src="../../assets/images/other/right.png" />
             </router-link>
         </li>
     </ul>

@@ -6,25 +6,25 @@
           <li class="list">
             <h4>早餐</h4>
             <p>葱油饼: 面粉 15克,葱花、鸡粉、盐、芝麻适量;南瓜鸡蛋煎饼: 南瓜 350 克,面粉100克,糯米粉50克,鸡蛋2个,水约150毫升,生姜、葱适量;</p>            
-            <img src="/src/assets/images/other/timg.jpg" />
-            <img src="/src/assets/images/other/timg.jpg" />
-            <img src="/src/assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
           </li>
 
           <li class="list">
             <h4>中餐</h4>
             <p>葱油饼: 面粉 15克,葱花、鸡粉、盐、芝麻适量;南瓜鸡蛋煎饼: 南瓜 350 克,面粉100克,糯米粉50克,鸡蛋2个,水约150毫升,生姜、葱适量;</p>
-            <img src="/src/assets/images/other/timg.jpg" />
-            <img src="/src/assets/images/other/timg.jpg" />
-            <img src="/src/assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
           </li>
 
           <li class="list">
             <h4>晚餐</h4>
             <p>葱油饼: 面粉 15克,葱花、鸡粉、盐、芝麻适量;南瓜鸡蛋煎饼: 南瓜 350 克,面粉100克,糯米粉50克,鸡蛋2个,水约150毫升,生姜、葱适量;</p>            
-            <img src="/src/assets/images/other/timg.jpg" />
-            <img src="/src/assets/images/other/timg.jpg" />
-            <img src="/src/assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
+            <img src="../../../../assets/images/other/timg.jpg" />
           </li>
         </ul>
 

@@ -3,13 +3,13 @@
     <!--footer-->
     <nav class="footer">
       <p :class="{'borderActive':active == 0}" @click="openView(0)">
-        <img src="/src/assets/images/33.png" v-if="active == 0">
-        <img src="/src/assets/images/333.png" v-else>
+        <img src="../../assets/images/33.png" v-if="active == 0">
+        <img src="../../assets/images/333.png" v-else>
         <span :style="active==0?'':'color:#44464A'">我的客户</span>
       </p>
       <p :class="{'borderActive':active == 1}" @click="openView(1)">
-        <img src="/src/assets/images/44.png" v-if="active == 1">
-        <img src="/src/assets/images/444.png" v-else>
+        <img src="../../assets/images/44.png" v-if="active == 1">
+        <img src="../../assets/images/444.png" v-else>
         <span :style="active==1?'':'color:#44464A'">申请用户</span>
       </p>
     </nav>
